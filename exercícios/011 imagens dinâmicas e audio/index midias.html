@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+
+<body>
+    <h1> Imagens dinâmicas</h1>
+    <p> Tente abrir este site em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1> Reproduzindo audio</h1>
+    <p>Reproduzindo audio em HTML5</p>
+    <p> audio do Matuê</p>
+
+    <!--preload: forma de pré carregamento do arquivo que aceita 3 valores-    metadata: carrega apenas informações do arquivo como tamanho, tempo etc.       none: não carrega nada até que o usuário aperte o botão de play.    auto: vai carregar o arquivo de audio inteiro assim que a página for carregada. -->
+
+    <audio preload="metadata" autoplay controls>
+       
+       <source src="midia/MATUÊ - SEM DÓ feat. L7NNON (320 kbps).wav" type="audio/wav">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/MATUÊ - SEM DÓ feat. L7NNON (320 kbps).mp3" type="audio/mpeg">
+        
+       
+    </audio>
+    <p> musica da nick minaj</p>
+    <audio preload="metadata" autoplays controls>
+        <source src="midia/Familia (Spider-Man_ Into the Spider-Verse) (320 kbps).mp3" type="audio/mpeg">
+        <source src="midia/Familia (Spider-Man_ Into the Spider-Verse) (320 kbps).ogg" type="audio/ogg">
+        <source src="midia/Familia (Spider-Man_ Into the Spider-Verse) (320 kbps).wav" type="audio/wav">
+    </audio>
+    <p> podcast do guanabara</p>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+</body>
+
+</html>

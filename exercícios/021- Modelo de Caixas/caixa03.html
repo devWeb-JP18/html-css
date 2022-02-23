@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        @font-face {
+            font-family: 'advocacia';
+            src: url(fontes/Vogue.ttf) format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'advocaciab';
+            src: url(fontes/CinzelDecorative-Regular.otf) format('opentype');
+        }
+        
+        header {
+            background-color: black;
+            margin-top: -20px;
+            margin-right: -10px;
+            margin-left: -10px;
+            padding-top: 46px;
+        }
+        
+        h1#principal {
+            color: rgb(255, 243, 191);
+            font-size: 3em;
+            font-family: 'advocaciab', serif;
+            text-align: center;
+        }
+        
+        nav>a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            color: rgb(255, 243, 191);
+            ;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            width: 280px;
+        }
+        
+        nav>a:hover {
+            text-decoration: underline;
+        }
+        
+        nav>a:active {
+            color: red;
+        }
+        
+        h2 {
+            font-family: 'advocacia', serif;
+            font-size: 1.8em;
+            color: #000000;
+        }
+        
+        main {
+            background-color: white;
+            width: 600px;
+            padding: 10px;
+        }
+        
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+        }
+        
+        ul {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="principal">Borges e Gomes- Advocacia Criminal</h1>
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">O Escritório</a>
+            <a href="#">Equipe</a>
+            <a href="#">Atuação</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>O que faz um advogado criminalista?</h2>
+            <article>
+
+                <p class="fonte">Esse profissional atua em escritórios, tribunais, delegacias e penitenciárias, ou seja, está presente em lugares em que precisa garantir o direito de defesa de seu cliente. Sua função principal é impedir abusos e ilegalidades contra cidadãos
+                    nos processos penais. Entre as principais atividades da advocacia criminal, estão:
+                    <ul>
+                        <li> Redigir petições</li>
+                        <li>Comparecer a julgamentos</li>
+                        <li>Orientar o cliente durante o processo</li>
+                        <li>Acompanhar visitas a delegacias ou centros de detenção</li>
+                    </ul>
+                </p>
+
+            </article>
+            <article>
+                <h2>Título do artigo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente voluptatum maiores corporis accusamus fugit! Aut maiores explicabo mollitia distinctio nisi dicta tempora commodi natus assumenda, repellat temporibus voluptatum? Atque,
+                    corrupti.
+                </p>
+                <aside>
+                    conteúdo periférico do artigo
+                </aside>
+            </article>
+        </section>
+        <aside>
+            conteúdo periférico do site
+        </aside>
+    </main>
+    <footer>
+        conteúdo do rodapé
+    </footer>
+</body>
+
+</html>
